@@ -25,5 +25,6 @@ def getRoutes(request):
 
     return JsonResponse(routes, safe=False)
 
-    def getProducts(request):
-        return JsonResponse(products, safe=False)
+
+def getProducts(request):
+    return JsonResponse(products, safe=False)
